@@ -11,8 +11,9 @@
 }
 
 .welcome-header__text {
-  width: 60%;
+  width: 80%;
   opacity: 0.7;
+  line-height: 22px;
 }
 
 /* BEM이용시 */
