@@ -97,10 +97,19 @@
   align-items: flex-end;
 }
 
-.message__time,
+.message__info__text span,
 .message__author {
   opacity: 0.8;
   font-size: 14px;
+}
+
+.message__info__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.message__read {
+  margin-bottom: 2px;
 }
 
 @keyframes sideFadeInFromRight {
