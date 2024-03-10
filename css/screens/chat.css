@@ -106,6 +106,8 @@
 .message__info__text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .message__read {
